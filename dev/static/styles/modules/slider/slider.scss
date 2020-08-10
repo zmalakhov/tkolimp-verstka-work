@@ -1,0 +1,85 @@
+.slider {
+  background-image: url("../images/content/slider-fon.jpg"); // установка изображения
+  background-repeat: no-repeat; // не повторять изображение
+  background-size: cover; // чтобы изображение растягивалось
+  background-position: center; //располагаем изображение по центру
+  min-height: 500px; // нужно обязательно указывать
+}
+
+.slider__item{
+  outline: none;
+}
+
+.slider__item-content {
+  text-align: center;
+  padding-top: 100px;
+  max-width: 700px;
+  margin: 0 auto;
+
+}
+
+.slider__title {
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  margin-bottom: 22px;
+}
+
+.slider__text {
+  line-height: 24px;
+  font-family: 'PT Serif', serif;
+  font-size: 18px;
+  color: #d3d2d2;
+  margin-bottom: 50px;
+}
+
+.slider__inner {
+  position: relative;
+}
+
+.slick-btn {
+  position: absolute;
+  top: 70%;
+  z-index: 3;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: #ffc222;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+
+  &.slick-disabled {
+    background-color: transparent;
+    cursor: default;
+  }
+
+  &:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.slick-next {
+  right: 0;
+
+  &:before {
+    content: "\f105";
+    font-family: 'icomoon';
+  }
+}
+
+.slick-prev {
+  left: 0;
+
+  &:before {
+    content: "\f104";
+    font-family: 'icomoon';
+  }
+}
