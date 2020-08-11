@@ -1,5 +1,5 @@
 .slider {
-  background-image: url("../images/content/slider-fon.jpg"); // установка изображения
+  background-image: url("../images/content/slider-fon-3.jpg"); // установка изображения
   background-repeat: no-repeat; // не повторять изображение
   background-size: cover; // чтобы изображение растягивалось
   background-position: center; //располагаем изображение по центру
@@ -23,10 +23,11 @@
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
   line-height: 36px;
-  color: #fff;
+  color: #ffffff;
   font-weight: 500;
   letter-spacing: 1.5px;
-  margin-bottom: 22px;
+  //margin-bottom: 22px;
+  margin-bottom: 35px;
 }
 
 .slider__text {
@@ -34,11 +35,16 @@
   font-family: 'PT Serif', serif;
   font-size: 18px;
   color: #d3d2d2;
-  margin-bottom: 50px;
+  //margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .slider__inner {
   position: relative;
+}
+
+.slider__btn{
+  margin-top: 30px;
 }
 
 .slick-btn {

@@ -10,8 +10,8 @@ header {
 .header__btn {
   float: right;
   line-height: 36px;
-  color: #1b1b1b;
-  background-color: #ffc222;
+  color: #ffffff;
+  background-color: #02458d;
   padding: 5px 20px 4px 50px;
   font-size: 16px;
   position: relative;
@@ -20,7 +20,7 @@ header {
     content: "\f0b1";
     position: absolute;
     left: 22px;
-    color: #1b1b1b;
+    color: #ffc222;
   }
 
 }
@@ -76,6 +76,7 @@ header {
 .header__content-inner {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .menu li {
@@ -91,7 +92,7 @@ header {
   transition: all .3s;
 
   &:hover {
-    border-color: #ffc222;
+    border-color: #02458d;
   }
 }
 
