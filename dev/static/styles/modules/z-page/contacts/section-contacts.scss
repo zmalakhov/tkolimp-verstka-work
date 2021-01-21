@@ -1,0 +1,104 @@
+.contacts__title {
+  padding: 30px 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  color: #212020;
+
+
+  @media (min-width: $width-tablet) {
+    text-align: center;
+  }
+}
+
+.contacts__description {
+  //padding: 20px 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  //text-align: center;
+  color: #868383;
+  @media (min-width: $width-tablet) {
+    font-size: 16px;
+  }
+}
+
+.contacts__list-filial {
+  padding: 20px;
+  padding-top: 0;
+}
+
+.contacts__item-filial {
+  padding-bottom: 30px;
+}
+
+.contacts__filial-title {
+  padding: 24px 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #535353;
+  @media (min-width: $width-tablet) {
+    text-align: left;
+  }
+}
+
+.contacts__list-details {
+  padding-left: 0;
+  @media (min-width: $width-tablet) {
+    padding-left: 30px;
+
+  }
+}
+
+.contacts__item-details {
+  padding: 0;
+  padding-bottom: 25px;
+  @media (min-width: $width-tablet) {
+    padding: 10px;
+
+  }
+  //border: 1px solid #0d95e8;
+}
+
+.contacts__list-detail {
+  display: flex;
+  flex-direction: column;
+  @media (min-width: $width-tablet) {
+    flex-direction: row;
+  }
+}
+
+.contacts__item-detail-key {
+  width: 100%;
+  padding-bottom: 10px;
+  text-decoration: underline;
+  @media (min-width: $width-tablet) {
+    width: 30%;
+
+  }
+}
+
+.contacts__item-detail-value {
+  width: 100%;
+  @media (min-width: $width-tablet) {
+    width: 70%;
+
+  }
+}
+
+.contacts__item-detail-phone {
+
+}
+
+.contacts__item-detail-phone-value {
+  padding: 10px;
+}
+
+
+
+
+
+

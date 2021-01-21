@@ -8,13 +8,15 @@
 }
 
 .about-inner {
-  padding: 25px 0 45px;
+  margin: 0 auto;
+  padding: 45px 0 45px;
   max-width: 545px;
+
 }
 
 .about__title {
   font-family: 'Roboto', sans-serif;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 500;
   line-height: 24px;
   color: #ffffff;
@@ -23,11 +25,11 @@
 
 .about__text{
   font-family: 'PT Serif', serif;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 28px;
   color: #d3d2d2;
   font-weight: 400;
-  letter-spacing: .14px;
+  letter-spacing: .5px;
   margin-bottom: 30px;
 }
 .about__btn.default-btn:after{

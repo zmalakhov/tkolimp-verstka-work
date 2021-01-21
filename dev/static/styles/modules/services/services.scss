@@ -83,25 +83,25 @@
   overflow: hidden;
 }
 
-.services__item-btn{
+.services__item-btn {
   padding: 0 30px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
-.services__item-btn .default-btn{
+.services__item-btn .default-btn {
   color: #373636;
   border-color: #02458d;
-  &:after{
+
+  &:after {
     color: #ffffff;
   }
 }
 
 
-
-.services__item-link{
+.services__item-link {
   color: #050505;
   font-family: 'Roboto', sans-serif;
   text-decoration: underline;

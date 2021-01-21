@@ -7,6 +7,15 @@ header {
   background-color: #303030;
 }
 
+.header__logo{
+  width: 40%;
+
+  @media (min-width: $width-tablet) {
+    width: 20%;
+  }
+
+}
+
 .header__btn {
   float: right;
   line-height: 36px;
@@ -37,6 +46,7 @@ header {
 
 .header__phone,
 .header__email {
+  font-size: 20px;
   color: #cbcacb;
   letter-spacing: 0.25px;
   line-height: 45px;
@@ -70,13 +80,18 @@ header {
 }
 
 .header__content {
-  padding: 34px 0 23px;
+  //padding: 34px 0 23px;
+  padding: 0;
 }
 
 .header__content-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 0;
+
+  @media (min-width: $width-tablet) {
+  }
 }
 
 .menu li {
